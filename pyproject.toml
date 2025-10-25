@@ -54,8 +54,7 @@ minimal = [
 [project.urls]
 homepage = "https://accural-ai.web.app"
 repository = "https://github.com/orgs/AccuralAI/repositories"
-documentation = "https://github.com/AccuralAI"
-changelog = "https://github.com/AccuralAI"
+documentation = "https://accuralai.readthedocs.io/en/latest/"
 
 [build-system]
 requires = ["hatchling"]
