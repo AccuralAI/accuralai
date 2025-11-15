@@ -1,6 +1,6 @@
 [project]
 name = "accuralai"
-version = "0.1.0"
+version = "0.2.0"
 description = "Complete AccuralAI ecosystem - pragmatic tooling for LLM quality improvements"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -15,6 +15,7 @@ dependencies = [
     "accuralai-cache",
     "accuralai-router",
     "accuralai-validator",
+    "accuralai-rag",
 ]
 
 [project.optional-dependencies]
@@ -31,6 +32,7 @@ dev = [
     "accuralai-cache[dev]",
     "accuralai-router[dev]",
     "accuralai-validator[dev]",
+    "accuralai-rag[dev]",
     "accuralai-ollama[dev]",
     "accuralai-google[dev]",
 ]
@@ -42,6 +44,7 @@ all = [
     "accuralai-cache",
     "accuralai-router",
     "accuralai-validator",
+    "accuralai-rag",
     "accuralai-ollama",
     "accuralai-google",
 ]
